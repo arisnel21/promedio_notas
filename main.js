@@ -11,9 +11,7 @@ const promedio = () =>{
     let mostrarPromedio = document.createElement("p");
     mostrarPromedio.innerHTML = `Promedio de Notas: ${resultado}`;
 
-    contenedor.appendChild(mostrarPromedio);
-    
-    
+    contenedor.appendChild(mostrarPromedio);    
 }
 
 let sumaNota = (callback) =>{
